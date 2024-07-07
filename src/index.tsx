@@ -1,5 +1,6 @@
 /* @refresh reload */
 import { render } from "solid-js/web";
+import { injectSpeedInsights } from "@vercel/speed-insights";
 import App from "./App";
 
 const id = "app";
@@ -10,6 +11,7 @@ if (!root)
     `Could not find root element, make sure an element with an ID of ${id} exists on the DOM.`,
   );
 
+injectSpeedInsights();
 render(
   () => (
     <>

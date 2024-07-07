@@ -1,4 +1,4 @@
-import { Link } from "../items/links";
+import type { Link } from "../items/links";
 
 export function LinkIcon(props: Link) {
   return (

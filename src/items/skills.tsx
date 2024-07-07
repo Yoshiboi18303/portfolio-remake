@@ -2,7 +2,6 @@ import {
   IconBrandSolidjs,
   IconBrandTypescript,
   IconBrandMongodb,
-  IconBrandWindows,
   IconBrandVscode,
 } from "@tabler/icons-solidjs";
 import type { JSX } from "solid-js/jsx-runtime";
@@ -33,9 +32,5 @@ export default [
     icon: <IconBrandVscode />,
     name: "Visual Studio Code",
     url: "https://code.visualstudio.com",
-  },
-  {
-    icon: <IconBrandWindows />,
-    name: "Windows",
   },
 ] as Skill[];

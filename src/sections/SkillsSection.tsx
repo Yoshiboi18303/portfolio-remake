@@ -13,7 +13,7 @@ export default function SkillsSection({
   return (
     <div>
       <SectionHeading>Skills</SectionHeading>
-      <SectionGrid class="grid-cols-3">
+      <SectionGrid class="grid-cols-4">
         <Index each={skills} fallback={noItemsFallback}>
           {(skill) => <SkillCard {...skill()} />}
         </Index>

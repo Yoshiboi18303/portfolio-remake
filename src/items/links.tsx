@@ -2,8 +2,8 @@ import type { JSX } from "solid-js/jsx-runtime";
 import {
   IconBrandGithub,
   IconBrandDiscord,
-  IconBrandSteam,
   IconBrandTwitch,
+  IconBrandTwitter,
   IconBrandYoutube,
 } from "@tabler/icons-solidjs";
 
@@ -14,23 +14,23 @@ export interface Link {
 
 export default [
   {
-    icon: <IconBrandGithub />,
-    url: "https://github.com/Yoshiboi18303",
+    icon: <IconBrandYoutube />,
+    url: "https://www.youtube.com/channel/UCKTAOjvi768AX-ccy1iPVKA",
   },
   {
-    icon: <IconBrandDiscord />,
-    url: "https://discord.gg/53DZc5SWue",
+    icon: <IconBrandTwitter />,
+    url: "https://twitter.com/Yoshi_Brid",
   },
   {
     icon: <IconBrandTwitch />,
     url: "https://twitch.tv/yoshiboi18303",
   },
   {
-    icon: <IconBrandSteam />,
-    url: "https://steamcommunity.com/id/yoshiboi18303/",
+    icon: <IconBrandDiscord />,
+    url: "https://discord.gg/53DZc5SWue",
   },
   {
-    icon: <IconBrandYoutube />,
-    url: "https://www.youtube.com/channel/UCKTAOjvi768AX-ccy1iPVKA",
+    icon: <IconBrandGithub />,
+    url: "https://github.com/Yoshiboi18303",
   },
 ] as Link[];

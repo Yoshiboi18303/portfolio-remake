@@ -4,7 +4,7 @@ import type { SectionProps } from "../types";
 import { Index } from "solid-js";
 import { SectionHeading } from "../components/PortfolioParts/SectionHeading";
 import { SectionGrid } from "../components/PortfolioParts/SectionGrid";
-import { ArtistCard } from "../components/ArtistCard";
+import { ArtistCard } from "../components/MusicArtistComps/ArtistCard";
 
 export default function MusicArtistsSection({
   list: musicArtists,

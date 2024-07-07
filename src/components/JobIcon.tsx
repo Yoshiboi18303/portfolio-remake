@@ -2,9 +2,7 @@ import type { Job } from "../items/jobs";
 import { Tooltip } from "./Tooltip";
 import { Show } from "solid-js";
 
-interface JobIconProps extends Job {
-  invertRotation?: boolean;
-}
+type JobIconProps = Job & { invertRotation?: boolean };
 
 function Icon(props: JobIconProps) {
   return (
