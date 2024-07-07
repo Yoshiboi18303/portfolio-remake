@@ -21,8 +21,8 @@ This process _(and Bun itself)_ is best used on Linux/MacOS. `npm`/`Node.js` can
 Run this in your terminal:
 
 ```bash
-git clone https://github.com/Yoshiboi18303/portfolio.git
-cd portfolio
+git clone https://github.com/Yoshiboi18303/portfolio-rewrite.git
+cd portfolio-rewrite
 ```
 
 ### Install dependencies
