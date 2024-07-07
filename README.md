@@ -1,28 +1,54 @@
-## Usage
+# Portfolio
+
+My new official portfolio site, made with SolidJS.
+
+## Site URL
+
+[https://yoshiboi18303.vercel.app](https://yoshiboi18303.vercel.app)
+
+## Contributing
+
+### Prerequisites
+
+- [Bun](https://bun.sh/)
+- Knowledge of [TypeScript](https://www.typescriptlang.org) and [SolidJS](https://www.solidjs.com)
+- [Visual Studio Code](https://code.visualstudio.com) _(or any other code editor)_
+
+This process _(and Bun itself)_ is best used on Linux/MacOS. `npm`/`Node.js` can be used as well if you prefer.
+
+### Clone the repo
+
+Run this in your terminal:
 
 ```bash
-$ npm install # or pnpm install or yarn install
+git clone https://github.com/Yoshiboi18303/portfolio.git
+cd portfolio
 ```
 
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
+### Install dependencies
 
-## Available Scripts
+#### If using Bun
 
-In the project directory, you can run:
+```bash
+bun install
+```
 
-### `npm run dev`
+#### If using Node.js
 
-Runs the app in the development mode.<br>
-Open [http://localhost:5173](http://localhost:5173) to view it in the browser.
+```bash
+npm install
+```
 
-### `npm run build`
+### Start the development server
 
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
+#### With Bun
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+```bash
+bun run dev
+```
 
-## Deployment
+#### With Node.js
 
-Learn more about deploying your application with the [documentations](https://vitejs.dev/guide/static-deploy.html)
+```bash
+npm run dev
+```
