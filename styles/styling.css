@@ -2,7 +2,7 @@
  * THIS IS JUST USED TO SET UP TAILWIND WITH SOME STUFF, YOU DO NOT NEED TO EDIT THIS.
  */
 
-/*! tailwindcss v3.4.3 | MIT License | https://tailwindcss.com
+/*! tailwindcss v3.4.4 | MIT License | https://tailwindcss.com
  */
 
 /*
@@ -557,6 +557,10 @@ video {
   --tw-contain-style:  ;
 }
 
+.static {
+  position: static;
+}
+
 .absolute {
   position: absolute;
 }
@@ -645,12 +649,12 @@ video {
   grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-.grid-cols-3 {
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-
 .grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
 }
 
 .flex-row {
@@ -790,6 +794,10 @@ video {
   line-height: 1.75rem;
 }
 
+.text-sm {
+  font-size: 0.750rem;
+}
+
 .text-xl {
   font-size: 1.333rem;
 }
@@ -813,6 +821,11 @@ video {
 .text-blue-500 {
   --tw-text-opacity: 1;
   color: rgb(59 130 246 / var(--tw-text-opacity));
+}
+
+.text-cyan-400 {
+  --tw-text-opacity: 1;
+  color: rgb(34 211 238 / var(--tw-text-opacity));
 }
 
 .text-orange-950 {

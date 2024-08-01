@@ -24,6 +24,7 @@ export default function MusicGenresSection({
                     <ArtistIcon
                       avatarUrl={artist().avatarUrl}
                       name={artist().name}
+                      url={artist().url}
                     />
                   )}
                 </Index>

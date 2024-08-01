@@ -1,14 +1,16 @@
+// Items
 import musicArtists from "./items/musicArtists";
 import jobs from "./items/jobs";
 import links from "./items/links";
 import skills from "./items/skills";
-// import musicGenres from "./items/musicGenres";
+import musicGenres from "./items/musicGenres";
 
+// Sections
 import LinksSection from "./sections/LinksSection";
 import JobsSection from "./sections/JobsSection";
 import SkillsSection from "./sections/SkillsSection";
 import MusicArtistsSection from "./sections/MusicArtistsSection";
-// import MusicGenresSection from "./sections/MusicGenresSection";
+import MusicGenresSection from "./sections/MusicGenresSection";
 import YTPsSection from "./sections/YTPsSection";
 
 const noItemsFallback = <p class="text-2xl text-red-600">No items... :(</p>;
@@ -50,6 +52,10 @@ export default function App() {
         <SkillsSection list={skills} noItemsFallback={noItemsFallback} />
         <MusicArtistsSection
           list={musicArtists}
+          noItemsFallback={noItemsFallback}
+        />
+        <MusicGenresSection
+          list={musicGenres}
           noItemsFallback={noItemsFallback}
         />
         <YTPsSection />

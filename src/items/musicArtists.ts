@@ -12,12 +12,6 @@ export default [
       "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRCryNT6HfmgCk0Xp6abp4WBhs__U42_wAF824jiZs1ZIPf2mep",
   },
   {
-    name: "Galantis",
-    url: "https://wearegalantis.com",
-    avatarUrl:
-      "https://i.scdn.co/image/ab6761610000e5eb7bda087d6fb48d481efd3344",
-  },
-  {
     name: "Creo",
     url: "https://creo.bandcamp.com",
     avatarUrl: "https://f4.bcbits.com/img/0006780748_21.jpg",
@@ -39,5 +33,23 @@ export default [
     url: "https://death-pact.com",
     avatarUrl:
       "https://viberatecdn.blob.core.windows.net/entity/artist/deathpact-rsuZx",
+  },
+  {
+    name: "Alan Walker",
+    url: "https://www.alanwalker.com",
+    avatarUrl:
+      "https://upload.wikimedia.org/wikipedia/commons/b/bc/Alan_Walker_%28cropped%29.jpg",
+  },
+  {
+    name: "TheFatRat",
+    url: "https://www.youtube.com/channel/UCa_UMppcMsHIzb5LDx1u9zQ",
+    avatarUrl:
+      "https://yt3.googleusercontent.com/vqx6-hhQDaWcbjjJWWp5H58l8LEBxX1gStQPXJUL2fSfUyTHgpOYrZ23v7EuURuWwM7tPwJJLw=s160-c-k-c0x00ffffff-no-rj  ",
+  },
+  {
+    name: "Sullivan King",
+    url: "https://www.sullivankingmusic.com/",
+    avatarUrl:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSx37ka9dL0h5S5_miLssXRNJv_e5iz4uxn7w&s",
   },
 ] as MusicArtist[];

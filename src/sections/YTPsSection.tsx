@@ -20,8 +20,6 @@ async function loadData(
 
   /* Axios will reject the Promise if the status isn't an OK type status, so we don't need to check if it's OK. */
 
-  // Get the most recent 3 YTPs
-  const ytps: VideoObject[] = [];
   const data = response.data as { videos: VideoObject[] };
   const responseVideos = data.videos.filter(
     (video) =>
@@ -29,23 +27,12 @@ async function loadData(
       video.title.toLowerCase().includes("[ytp]"),
   );
 
-  // Limit the number of videos to be loaded
-  let runs = 0;
+  if (responseVideos.length === 0) return "No YTP videos found";
 
-  if (responseVideos.length <= 0) {
-    return "No YTP videos found";
-  }
-
-  while (runs < maxVideosToLoad) {
-    const video = responseVideos[runs];
-
-    if (!video) break;
-
-    ytps.push(video);
-    runs++;
-  }
-
-  return ytps;
+  // Returns the first `maxVideosToLoad` videos that aren't "spoilers" (aka upcoming videos).
+  return responseVideos
+    .filter((video) => !video.isUpcoming /* No spoilers!! */)
+    .slice(0, maxVideosToLoad);
 }
 
 export default function YTPsSection() {
@@ -98,14 +85,14 @@ export default function YTPsSection() {
         <Show
           when={hasLoadedBefore}
           fallback={
-            <h3 class="font-mono text-xl">
+            <h3 class="mt-5 font-mono text-xl">
               Loading the first 3 most recent YTPs from my{" "}
               <span class="text-red-600">You</span>
               Tube channel...
             </h3>
           }
         >
-          <h3 class="font-mono text-xl">
+          <h3 class="mt-5 font-mono text-xl">
             Loading the next 3 most recent YTPs from my{" "}
             <span class="text-red-600">You</span>
             Tube channel...

@@ -7,25 +7,26 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "deploy": "pnpm build && vercel",
-    "deploy:prod": "pnpm build && vercel --prod"
+    "deploy": "bun run build && vercel",
+    "deploy:prod": "bun run build && vercel --prod"
   },
   "dependencies": {
-    "@tabler/icons-solidjs": "^2.47.0",
+    "@tabler/icons-solidjs": "3.11.0",
     "@vercel/speed-insights": "^1.0.10",
     "axios": "^1.6.8",
     "solid-js": "^1.8.16"
   },
   "devDependencies": {
     "prettier": "^3.2.5",
-    "prettier-plugin-tailwindcss": "^0.5.13",
+    "prettier-plugin-tailwindcss": "0.6.5",
     "tailwindcss": "^3.4.3",
     "typescript": "^5.4.5",
-    "vercel": "^34.0.0",
+    "vercel": "^35.2.2",
     "vite": "^5.2.8",
     "vite-plugin-solid": "^2.10.2"
   },
   "trustedDependencies": [
-    "@vercel/speed-insights"
+    "@vercel/speed-insights",
+    "esbuild"
   ]
 }

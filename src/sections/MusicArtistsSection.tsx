@@ -15,7 +15,7 @@ export default function MusicArtistsSection({
       <SectionHeading>Favorite Music Artists</SectionHeading>
       <SectionGrid class="grid-cols-4">
         <Index each={musicArtists} fallback={noItemsFallback}>
-          {(artist) => <ArtistCard {...artist()} />}
+          {(artist) => <ArtistCard {...artist()} urlInIcon={false} />}
         </Index>
       </SectionGrid>
     </div>

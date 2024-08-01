@@ -2,7 +2,7 @@ import { MusicArtist } from "../../items/musicArtists";
 import { IconExternalLink } from "@tabler/icons-solidjs";
 import ArtistIcon from "./ArtistIcon";
 
-export function ArtistCard(props: MusicArtist) {
+export function ArtistCard(props: MusicArtist & { urlInIcon?: boolean }) {
   return (
     <a
       href={props.url}
@@ -13,7 +13,11 @@ export function ArtistCard(props: MusicArtist) {
         width: "200px",
       }}
     >
-      <ArtistIcon avatarUrl={props.avatarUrl} name={props.name} />
+      <ArtistIcon
+        avatarUrl={props.avatarUrl}
+        name={props.name}
+        url={props.urlInIcon ? props.url : null}
+      />
       <span class="flex flex-row">
         <h2 class="mr-1 text-lg font-medium">{props.name}</h2>
         <IconExternalLink size="24" />
