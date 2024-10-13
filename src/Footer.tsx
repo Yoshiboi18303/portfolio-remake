@@ -14,7 +14,7 @@ export default function Footer() {
       </p>
       <p class="mt-2 text-xl">
         © {new Date().getFullYear()} Yoshiboi18303.{" "}
-        <strong>All rights reserved</strong>.
+        <strong>Licensed under GNU General Public License v3.0</strong>.
       </p>
       <br />
       <p class="mt-2 text-sm">

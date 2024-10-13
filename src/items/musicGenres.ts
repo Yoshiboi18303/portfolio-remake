@@ -16,12 +16,6 @@ export default [
           "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRCryNT6HfmgCk0Xp6abp4WBhs__U42_wAF824jiZs1ZIPf2mep",
       },
       {
-        name: "Deathpact",
-        url: "https://death-pact.com",
-        avatarUrl:
-          "https://viberatecdn.blob.core.windows.net/entity/artist/deathpact-rsuZx",
-      },
-      {
         name: "Alan Walker",
         url: "https://www.alanwalker.com",
         avatarUrl:

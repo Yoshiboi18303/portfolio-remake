@@ -3,7 +3,6 @@ import {
   IconBrandGithub,
   IconBrandDiscord,
   IconBrandTwitch,
-  IconBrandTwitter,
   IconBrandYoutube,
 } from "@tabler/icons-solidjs";
 
@@ -16,10 +15,6 @@ export default [
   {
     icon: <IconBrandYoutube />,
     url: "https://www.youtube.com/channel/UCKTAOjvi768AX-ccy1iPVKA",
-  },
-  {
-    icon: <IconBrandTwitter />,
-    url: "https://twitter.com/Yoshi_Brid",
   },
   {
     icon: <IconBrandTwitch />,

@@ -29,12 +29,6 @@ export default [
       "https://upload.wikimedia.org/wikipedia/commons/d/de/Patreon_Ringtones_Kevin_MacLeod_Screenshot.jpg",
   },
   {
-    name: "Deathpact",
-    url: "https://death-pact.com",
-    avatarUrl:
-      "https://viberatecdn.blob.core.windows.net/entity/artist/deathpact-rsuZx",
-  },
-  {
     name: "Alan Walker",
     url: "https://www.alanwalker.com",
     avatarUrl:
