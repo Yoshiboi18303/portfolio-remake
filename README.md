@@ -1,10 +1,14 @@
+# Discontinued
+
+This project has been discontinued as the stack is way outside my comfort zone now.
+
+**The site will be taken offline permanently until it is remade with Nuxt.**
+
+---
+
 # Portfolio
 
 My new official portfolio site, made with SolidJS.
-
-## Site URL
-
-[https://yoshiboi18303.vercel.app](https://yoshiboi18303.vercel.app)
 
 ## Contributing
 
